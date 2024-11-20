@@ -15,8 +15,6 @@ private:
     //could be expanded if needed
 
 public:
-    PrinterData();
-    PrinterData(PrinterData& other);
 
     std::string getProductionFirm();
     std::string getSerialNumber();

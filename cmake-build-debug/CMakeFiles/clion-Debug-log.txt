@@ -1,4 +1,236 @@
 "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\grish\Documents\C++ Projects\printers" -B "C:\Users\grish\Documents\C++ Projects\printers\cmake-build-debug"
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Running with CMake 3.29.6
+-- LogProfile='original'
+-- snmp++ Version 3.5.1
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for 9 include files cctype, ..., ctime
+-- Looking for 9 include files cctype, ..., ctime - found
+-- Looking for include file iostream
+-- Looking for include file iostream - found
+-- Looking for include files stdlib.h, stddef.h
+-- Looking for include files stdlib.h, stddef.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file ctype.h
+-- Looking for include file ctype.h - found
+-- Looking for include file signal.h
+-- Looking for include file signal.h - found
+-- Looking for include file errno.h
+-- Looking for include file errno.h - found
+-- Looking for include file time.h
+-- Looking for include file time.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file sys/unistd.h
+-- Looking for include file sys/unistd.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include file sys/timeb.h
+-- Looking for include file sys/timeb.h - found
+-- Looking for include file winsock2.h
+-- Looking for include file winsock2.h - found
+-- Looking for include file ws2tcpip.h
+-- Looking for include file ws2tcpip.h - found
+-- Looking for include file wspiapi.h
+-- Looking for include file wspiapi.h - found
+-- Looking for include file winsock.h
+-- Looking for include file winsock.h - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - not found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - not found
+-- Looking for include file arpa/inet.h
+-- Looking for include file arpa/inet.h - not found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - not found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - not found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - not found
+-- Looking for include file io.h
+-- Looking for include file io.h - found
+-- Looking for include file process.h
+-- Looking for include file process.h - found
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for stricmp
+-- Looking for stricmp - found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for _getpid
+-- Looking for _getpid - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - not found
+-- Looking for gethostbyaddr
+-- Looking for gethostbyaddr - not found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - not found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - not found
+-- Looking for gethostbyname2
+-- Looking for gethostbyname2 - not found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - not found
+-- Looking for gethostname
+-- Looking for gethostname - not found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for htonl
+-- Looking for htonl - not found
+-- Looking for inet_aton
+-- Looking for inet_aton - not found
+-- Looking for inet_ntoa
+-- Looking for inet_ntoa - not found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - not found
+-- Looking for inet_pton
+-- Looking for inet_pton - not found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - found
+-- Looking for isdigit
+-- Looking for isdigit - found
+-- Looking for include file limits.h
+-- Looking for include file limits.h - found
+-- Looking for localtime_r
+-- Looking for localtime_r - not found
+-- Looking for malloc
+-- Looking for malloc - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - not found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - not found
+-- Looking for poll
+-- Looking for poll - not found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - not found
+-- Looking for include file process.h
+-- Looking for include file process.h - found
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for realloc
+-- Looking for realloc - found
+-- Looking for select
+-- Looking for select - not found
+-- Looking for include file signal.h
+-- Looking for include file signal.h - found
+-- Looking for socket
+-- Looking for socket - not found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file stdio.h
+-- Looking for include file stdio.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for stricmp
+-- Looking for stricmp - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - not found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - not found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/timeb.h
+-- Looking for include file sys/timeb.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/unistd.h
+-- Looking for include file sys/unistd.h - found
+-- Looking for include file time.h
+-- Looking for include file time.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file winsock2.h
+-- Looking for include file winsock2.h - found
+-- Looking for include file winsock.h
+-- Looking for include file winsock.h - found
+-- Looking for include file ws2tcpip.h
+-- Looking for include file ws2tcpip.h - found
+-- Looking for include file wspiapi.h
+-- Looking for include file wspiapi.h - found
+-- Looking for _getpid
+-- Looking for _getpid - found
+-- Looking for C++ include stddef.h
+-- Looking for C++ include stddef.h - found
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Found int64_t: int64_t
+-- Found uint64_t: uint64_t
+-- Performing Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY
+-- Performing Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY - Success
+-- Performing Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY
+-- Performing Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY - Failed
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+CMake Error at C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+  system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY
+  OPENSSL_INCLUDE_DIR)
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenSSL.cmake:686 (find_package_handle_standard_args)
+  snmp++-3.5.2/CMakeLists.txt:282 (find_package)
+
+
+-- Configuring incomplete, errors occurred!

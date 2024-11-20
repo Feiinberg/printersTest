@@ -1,3 +1,0 @@
-C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug/CMakeFiles/printers.dir
-C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

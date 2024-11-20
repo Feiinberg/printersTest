@@ -56,35 +56,6 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc.exe
-
-//A wrapper around 'ar' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc-ar.exe
-
-//A wrapper around 'ranlib' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc-ranlib.exe
-
-//Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=
-
-//Flags used by the C compiler during DEBUG builds.
-CMAKE_C_FLAGS_DEBUG:STRING=-g
-
-//Flags used by the C compiler during MINSIZEREL builds.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
-
-//Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
-
-//Flags used by the C compiler during RELWITHDEBINFO builds.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
-
-//Libraries linked by default with all C applications.
-CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/dlltool.exe
 
@@ -158,6 +129,21 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=printers
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=3.5.1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=5
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/ranlib.exe
@@ -242,6 +228,54 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a library.
+LIB_EAY:FILEPATH=LIB_EAY-NOTFOUND
+
+//Log Profile
+LogProfile:STRING=original
+
+//List of possible values for the Log Profile variable
+LogProfileValues:STRING=original;off;quiet;std;events;verbose;full;debug;schwafel
+
+//Path to a file.
+OPENSSL_INCLUDE_DIR:PATH=C:/Program Files/OpenSSL-Win64/include
+
+//Enable additional debug messages
+OPTION_EXTENDED_DEBUG:BOOL=OFF
+
+//Enable IpxAddress class
+OPTION_IPXADDR:BOOL=OFF
+
+//Enable support for IPv6
+OPTION_IPv6:BOOL=ON
+
+//Search for DES library
+OPTION_LIBDES:BOOL=OFF
+
+//Search for Tomcrypt library
+OPTION_LIBTOMCRYPT:BOOL=OFF
+
+//Enable logging
+OPTION_LOGGING:BOOL=ON
+
+//Enable MacAddress class
+OPTION_MACADDR:BOOL=OFF
+
+//Enable using of namespace
+OPTION_NAMESPACE:BOOL=ON
+
+//Search for OpenSSL library
+OPTION_OPENSSL:BOOL=ON
+
+//Enable support for SNMPv3
+OPTION_SNMPv3:BOOL=ON
+
+//Enable support for threads
+OPTION_THREADS:BOOL=ON
+
+//Path to a library.
+SSL_EAY:FILEPATH=SSL_EAY-NOTFOUND
+
 //Value Computed by CMake
 printers_BINARY_DIR:STATIC=C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug
 
@@ -250,6 +284,15 @@ printers_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 printers_SOURCE_DIR:STATIC=C:/Users/grish/Documents/C++ Projects/printers
+
+//Value Computed by CMake
+snmp_pp_BINARY_DIR:STATIC=C:/Users/grish/Documents/C++ Projects/printers/cmake-build-debug/snmp++-3.5.2
+
+//Value Computed by CMake
+snmp_pp_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+snmp_pp_SOURCE_DIR:STATIC=C:/Users/grish/Documents/C++ Projects/printers/snmp++-3.5.2
 
 
 ########################
@@ -292,24 +335,6 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
 CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER_AR
-CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
-CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_FLAGS
-CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
-CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
-CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
-CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
-CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_STANDARD_LIBRARIES
-CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Executable file format
@@ -336,6 +361,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/grish/Documents/C++ Projects/printers
@@ -354,7 +381,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -410,6 +437,236 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Have includes arpa/inet.h
+CNF_HAVE_ARPA_INET_H:INTERNAL=
+//Have include ctype.h
+CNF_HAVE_CTYPE_H:INTERNAL=1
+//Have include errno.h
+CNF_HAVE_ERRNO_H:INTERNAL=1
+//Have function getpid
+CNF_HAVE_GETPID:INTERNAL=1
+//Have include inttypes.h
+CNF_HAVE_INTTYPES_H:INTERNAL=1
+//Have include iostream
+CNF_HAVE_IOSTREAM:INTERNAL=1
+//Have include io.h
+CNF_HAVE_IO_H:INTERNAL=1
+//Have include memory.h
+CNF_HAVE_MEMORY_H:INTERNAL=1
+//Have includes netdb.h
+CNF_HAVE_NETDB_H:INTERNAL=
+//Have includes netinet/in.h
+CNF_HAVE_NETINET_IN_H:INTERNAL=
+//Have includes poll.h
+CNF_HAVE_POLL_H:INTERNAL=
+//Have include process.h
+CNF_HAVE_PROCESS_H:INTERNAL=1
+//Have include pthread.h
+CNF_HAVE_PTHREAD_H:INTERNAL=1
+//Have include signal.h
+CNF_HAVE_SIGNAL_H:INTERNAL=1
+//Have include stdint.h
+CNF_HAVE_STDINT_H:INTERNAL=1
+//Have include stdlib.h
+CNF_HAVE_STDLIB_H:INTERNAL=1
+//Have function strcasecmp
+CNF_HAVE_STRCASECMP:INTERNAL=1
+//Have function stricmp
+CNF_HAVE_STRICMP:INTERNAL=1
+//Have include strings.h
+CNF_HAVE_STRINGS_H:INTERNAL=1
+//Have include string.h
+CNF_HAVE_STRING_H:INTERNAL=1
+//Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY
+CNF_HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY:INTERNAL=1
+//Test CNF_HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY
+CNF_HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY:INTERNAL=
+//Have include sys/param.h
+CNF_HAVE_SYS_PARAM_H:INTERNAL=1
+//Have includes sys/select.h
+CNF_HAVE_SYS_SELECT_H:INTERNAL=
+//Have includes sys/socket.h
+CNF_HAVE_SYS_SOCKET_H:INTERNAL=
+//Have include sys/stat.h
+CNF_HAVE_SYS_STAT_H:INTERNAL=1
+//Have include sys/timeb.h
+CNF_HAVE_SYS_TIMEB_H:INTERNAL=1
+//Have include sys/time.h
+CNF_HAVE_SYS_TIME_H:INTERNAL=1
+//Have include sys/types.h
+CNF_HAVE_SYS_TYPES_H:INTERNAL=1
+//Have include sys/unistd.h
+CNF_HAVE_SYS_UNISTD_H:INTERNAL=1
+//Have include time.h
+CNF_HAVE_TIME_H:INTERNAL=1
+//Have include unistd.h
+CNF_HAVE_UNISTD_H:INTERNAL=1
+//Have include winsock2.h
+CNF_HAVE_WINSOCK2_H:INTERNAL=1
+//Have include winsock.h
+CNF_HAVE_WINSOCK_H:INTERNAL=1
+//Have include ws2tcpip.h
+CNF_HAVE_WS2TCPIP_H:INTERNAL=1
+//Have include wspiapi.h
+CNF_HAVE_WSPIAPI_H:INTERNAL=1
+//Have function _getpid
+CNF_HAVE__GETPID:INTERNAL=1
+//Have include cctype;cerrno;climits;csignal;cstddef;cstdio;cstdlib;cstring;ctime
+CNF_STDCXX_98_HEADERS:INTERNAL=1
+//Have include stdlib.h;stddef.h
+CNF_STDC_HEADERS:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Have function arc4random
+HAVE_ARC4RANDOM:INTERNAL=
+//Have function clock_gettime
+HAVE_CLOCK_GETTIME:INTERNAL=1
+//Have function getaddrinfo
+HAVE_GETADDRINFO:INTERNAL=
+//Have function gethostbyaddr
+HAVE_GETHOSTBYADDR:INTERNAL=
+//Have function gethostbyaddr_r
+HAVE_GETHOSTBYADDR_R:INTERNAL=
+//Have function gethostbyname
+HAVE_GETHOSTBYNAME:INTERNAL=
+//Have function gethostbyname2
+HAVE_GETHOSTBYNAME2:INTERNAL=
+//Have function gethostbyname_r
+HAVE_GETHOSTBYNAME_R:INTERNAL=
+//Have function gethostname
+HAVE_GETHOSTNAME:INTERNAL=
+//Have function getpid
+HAVE_GETPID:INTERNAL=1
+//Have function gettimeofday
+HAVE_GETTIMEOFDAY:INTERNAL=1
+//Have function htonl
+HAVE_HTONL:INTERNAL=
+//Have function inet_aton
+HAVE_INET_ATON:INTERNAL=
+//Have function inet_ntoa
+HAVE_INET_NTOA:INTERNAL=
+//Have function inet_ntop
+HAVE_INET_NTOP:INTERNAL=
+//Have function inet_pton
+HAVE_INET_PTON:INTERNAL=
+//Have include inttypes.h
+HAVE_INTTYPES_H:INTERNAL=1
+//Have include io.h
+HAVE_IO_H:INTERNAL=1
+//Have function isdigit
+HAVE_ISDIGIT:INTERNAL=1
+//Have include limits.h
+HAVE_LIMITS_H:INTERNAL=1
+//Have function localtime_r
+HAVE_LOCALTIME_R:INTERNAL=
+//Have function malloc
+HAVE_MALLOC:INTERNAL=1
+//Have include memory.h
+HAVE_MEMORY_H:INTERNAL=1
+//Have function memset
+HAVE_MEMSET:INTERNAL=1
+//Have includes netdb.h
+HAVE_NETDB_H:INTERNAL=
+//Have includes netinet/in.h
+HAVE_NETINET_IN_H:INTERNAL=
+//Have function poll
+HAVE_POLL:INTERNAL=
+//Have includes poll.h
+HAVE_POLL_H:INTERNAL=
+//Have include process.h
+HAVE_PROCESS_H:INTERNAL=1
+//Have include pthread.h
+HAVE_PTHREAD:INTERNAL=1
+//Have function realloc
+HAVE_REALLOC:INTERNAL=1
+//Have function select
+HAVE_SELECT:INTERNAL=
+//Have include signal.h
+HAVE_SIGNAL_H:INTERNAL=1
+//Result of TRY_COMPILE
+HAVE_SIZEOF_INT64_T:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_LONG:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_LONG_LONG:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_UINT64_T:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_ULONG:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_ULONG_LONG:INTERNAL=TRUE
+//Have function socket
+HAVE_SOCKET:INTERNAL=
+//Have include stddef.h
+HAVE_STDDEF_H:INTERNAL=1
+//Have include stdint.h
+HAVE_STDINT_H:INTERNAL=1
+//Have include stdio.h
+HAVE_STDIO_H:INTERNAL=1
+//Have include stdlib.h
+HAVE_STDLIB_H:INTERNAL=1
+//Have function strcasecmp
+HAVE_STRCASECMP:INTERNAL=1
+//Have function strchr
+HAVE_STRCHR:INTERNAL=1
+//Have function strerror
+HAVE_STRERROR:INTERNAL=1
+//Have function stricmp
+HAVE_STRICMP:INTERNAL=1
+//Have include strings.h
+HAVE_STRINGS_H:INTERNAL=1
+//Have include string.h
+HAVE_STRING_H:INTERNAL=1
+//Have function strstr
+HAVE_STRSTR:INTERNAL=1
+//Have include sys/param.h
+HAVE_SYS_PARAM_H:INTERNAL=1
+//Have includes sys/select.h
+HAVE_SYS_SELECT_H:INTERNAL=
+//Have includes sys/socket.h
+HAVE_SYS_SOCKET_H:INTERNAL=
+//Have include sys/stat.h
+HAVE_SYS_STAT_H:INTERNAL=1
+//Have include sys/timeb.h
+HAVE_SYS_TIMEB_H:INTERNAL=1
+//Have include sys/time.h
+HAVE_SYS_TIME_H:INTERNAL=1
+//Have include sys/types.h
+HAVE_SYS_TYPES_H:INTERNAL=1
+//Have include sys/unistd.h
+HAVE_SYS_UNISTD_H:INTERNAL=1
+//Have include time.h
+HAVE_TIME_H:INTERNAL=1
+//Have include unistd.h
+HAVE_UNISTD_H:INTERNAL=1
+//Have include winsock2.h
+HAVE_WINSOCK2_H:INTERNAL=1
+//Have include winsock.h
+HAVE_WINSOCK_H:INTERNAL=1
+//Have include ws2tcpip.h
+HAVE_WS2TCPIP_H:INTERNAL=1
+//Have include wspiapi.h
+HAVE_WSPIAPI_H:INTERNAL=1
+//Have function _getpid
+HAVE__GETPID:INTERNAL=1
+//ADVANCED property for variable: LIB_EAY
+LIB_EAY-ADVANCED:INTERNAL=1
+//STRINGS property for variable: LogProfile
+LogProfile-STRINGS:INTERNAL=original;off;quiet;std;events;verbose;full;debug;schwafel
+//CHECK_TYPE_SIZE: sizeof(int64_t)
+SIZEOF_INT64_T:INTERNAL=8
+//CHECK_TYPE_SIZE: sizeof(long)
+SIZEOF_LONG:INTERNAL=4
+//CHECK_TYPE_SIZE: sizeof(long long)
+SIZEOF_LONG_LONG:INTERNAL=8
+//CHECK_TYPE_SIZE: sizeof(uint64_t)
+SIZEOF_UINT64_T:INTERNAL=8
+//CHECK_TYPE_SIZE: sizeof(unsigned long)
+SIZEOF_ULONG:INTERNAL=4
+//CHECK_TYPE_SIZE: sizeof(unsigned long long)
+SIZEOF_ULONG_LONG:INTERNAL=8
+//ADVANCED property for variable: SSL_EAY
+SSL_EAY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

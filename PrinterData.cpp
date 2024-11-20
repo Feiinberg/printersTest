@@ -4,15 +4,7 @@
 #include <string>
 #include <utility>
 
-PrinterData::PrinterData() {
-    this->ProductionFirm="";
-    this->SerialNumber="";
-    this->PagesPrinted="";}
 
-PrinterData::PrinterData(PrinterData& other){
-this->ProductionFirm=other.ProductionFirm;
-this->SerialNumber=other.SerialNumber;
-this->PagesPrinted=other.PagesPrinted;}
 
 
 std::string PrinterData::getProductionFirm(){return this->ProductionFirm;}
